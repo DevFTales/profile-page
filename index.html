@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+   </head>
+<body>    
+    <div class="card">
+        <div class="imgBx">
+            <img src="akuma.gif">
+        </div>
+            <div class="content"> 
+                <div class="background"></div>
+                <div class="details">
+                <h2>The Hunter<br><span style="font-weight: bold;">Hunter Vendetta</span></h2>    
+                <div class="data">
+                    <h3>999K<br><span>Posts</span></h3>
+                    <h3>999K<br><span>Followers</span></h3>
+                    <h3>999K<br><span>Following</span></h3>
+                </div>
+                <div class="actionBtn">
+                    <button onclick="window.open('https://www.instagram.com/huntervendeta/',  '_blank')">Follow</button>
+                    <button>Message</button>
+            </div> 
+        </div>
+    </div>    
+    <script>
+        // Event triggered when the main page is loaded
+        window.addEventListener('load', function() {
+          // Checks if the page has been reloaded
+          if (performance.navigation.type === 1) {
+            // Redirects to the loading page when reloading the main page
+            window.location.href = 'loading.html';
+          }
+        });
+      </script>
+      </body> 
+</html>
+
+
